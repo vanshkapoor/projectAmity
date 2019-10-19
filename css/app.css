@@ -1,6 +1,6 @@
-/* body{
+body{
     font-family: 'Raleway', sans-serif;
-} */
+}
 
 .pic{
 	margin-top: -30px;
@@ -11,10 +11,10 @@
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	transition: 0.5s;
+	transition: 0.15s;
 }
 .nav-link{
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .nav-link:hover{
     font-weight: bold;
@@ -23,15 +23,21 @@
 #icon{
 	color: grey;
     padding-right: 40px;
-    padding-left: 40px
+    padding-left: 40px;
+    transition: 0.1s;
 }
+#icon:hover {
+    color:white;
+}
+
+
 .pic:hover{
 	height: 210px;
 	width: 210px;
-	-webkit-box-shadow: 0px 9px 69px 1px rgba(60,72,87,1);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .navbar-brand{
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .navbar-brand:hover
 {
@@ -78,6 +84,7 @@ hr{
     height: 42vh;
 }
 .about2{
+    padding: 4% 10%;
     width: 100%;
     background-color: #F8F8F8;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(189,189,189,1);
@@ -99,7 +106,8 @@ hr{
     color: white;
     text-align: center;
     border-radius: 12px;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 10px;
     -webkit-box-shadow: 2px 3px 4px 0px rgba(189,189,189,1);
 }
 
@@ -136,3 +144,4 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+
